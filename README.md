@@ -25,3 +25,9 @@ For a project repository with a different name, the site will be served at `http
 - Publication entries are rendered from a single JavaScript array for easy maintenance.
 - No analytics or trackers included.
 - External font CDN: Google Fonts. Remove the `@import` in CSS if you prefer zero external requests.
+
+
+## Strikingly migration (2026-11-05)
+Migrated education, appointments, research projects, awards, research themes, and the full text bibliography from https://ishfaq-bashir-phd.mystrikingly.com/. Duplicate conference citations were merged (34 numbered source entries -> 32 unique entries including two theses).
+
+**Review before public use:** Publication statuses and citations are copied from the source site and may be outdated; confirm each against the publisher. The gallery is linked, not copied: download images you own and upload them separately if desired. For privacy, the residential/street address and phone number were intentionally omitted from the new website. Email was included because it is publicly listed as an academic contact. Add verified Scholar/ResearchGate links, CV and portraits when available.
