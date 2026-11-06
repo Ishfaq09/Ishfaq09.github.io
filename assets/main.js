@@ -16,18 +16,14 @@ const profile = {
  * Selected research outputs. Verify final publication metadata before publishing.
  * For the TMLCN item, add its exact title, year and DOI when confirmed.
  */
+  
 const publications = [
+  // ==================== 2026 ====================
   {
     "title": "An Efficient Transformer-Based Knowledge Distillation Framework with CPCA and GAN Augmentation for Lightweight IDS",
     "venue": "IEEE Transactions on Machine Learning in Communications and Networking",
-    "year": "2025",
+    "year": "2026",
     "type": "journal"
-  },
-  {
-    "title": "AE-Multi-WGAN: A Robust Multi-Attack Detection IDS for Imbalanced Datasets",
-    "venue": "IEEE GLOBECOM Communications Conference · pp. 1065–1070",
-    "year": "2025",
-    "type": "conference"
   },
   {
     "title": "LIME: Lightweight Multi-head Early-exit Transformer for Network Intrusion Detection",
@@ -38,7 +34,7 @@ const publications = [
   {
     "title": "ACCV-GAN: A Variational-Transformer GAN with Class-Aware Adaptive Training for Intrusion Detection Data Augmentation",
     "venue": "IEEE Transactions on Network and Service Management · Under revision",
-    "year": "2025",
+    "year": "2026",
     "type": "journal"
   },
   {
@@ -71,6 +67,16 @@ const publications = [
     "year": "2026",
     "type": "journal"
   },
+
+  // ==================== 2025 ====================
+  {
+    "title": "AE-Multi-WGAN: A Robust Multi-Attack Detection IDS for Imbalanced Datasets",
+    "venue": "IEEE GLOBECOM Communications Conference · pp. 1065–1070",
+    "year": "2025",
+    "type": "conference"
+  },
+
+  // ==================== 2024 ====================
   {
     "title": "Smart Energy-Saving Solutions Based on Artificial Intelligence and Other Emerging Technologies for 5G Wireless and Beyond Networks Communications",
     "venue": "Intelligent Signal Processing and RF Energy Harvesting for 5G and B5G Networks · pp. 77–95",
@@ -83,6 +89,8 @@ const publications = [
     "year": "2024",
     "type": "journal"
   },
+
+  // ==================== 2023 ====================
   {
     "title": "Modeling of Edge Server Cache-Reservation for Virtual Reality Applications",
     "venue": "ACM QoS and Security for Wireless and Mobile Networks · pp. 131–138",
@@ -94,24 +102,6 @@ const publications = [
     "venue": "Journal of Communications · 18(2)",
     "year": "2023",
     "type": "journal"
-  },
-  {
-    "title": "A Survey on Energy-Efficient 5G Green Network with a Planned Multi-Tier Architecture",
-    "venue": "Journal of Network and Computer Applications · 118, 1–28",
-    "year": "2018",
-    "type": "journal"
-  },
-  {
-    "title": "Power and Energy Optimization with Reduced Complexity in Different Deployment Scenarios of Massive MIMO Networks",
-    "venue": "International Journal of Communication Systems · 32(6), e3907",
-    "year": "2019",
-    "type": "journal"
-  },
-  {
-    "title": "Performance Evaluation of Different Channel Estimation Techniques in MIMO System for Hata Channel Model",
-    "venue": "IEEE ICICS · pp. 155–160",
-    "year": "2018",
-    "type": "conference"
   },
   {
     "title": "A Survey on Substrate Integrated Waveguide Filters: Design Challenges and Miniaturizing Techniques for the 5G",
@@ -137,12 +127,8 @@ const publications = [
     "year": "2023",
     "type": "journal"
   },
-  {
-    "title": "KU Database of Handwritten Arabic Words",
-    "venue": "Research output listed on Strikingly · Full venue needs verification",
-    "year": "2016",
-    "type": "journal"
-  },
+
+  // ==================== 2022 ====================
   {
     "title": "A New Method of Dual-Hop Energy Harvesting and Efficient Power Allocation in IoT Networks Using a Bio-Inspired Based Power Distribution Scheme",
     "venue": "Journal of Communications · 17(6)",
@@ -155,6 +141,8 @@ const publications = [
     "year": "2022",
     "type": "journal"
   },
+
+  // ==================== 2021 ====================
   {
     "title": "Agriculture-Food Supply Chain Management Based on Blockchain and IoT: A Narrative on Enterprise Blockchain Interoperability",
     "venue": "Agriculture · 12(1), 40",
@@ -173,10 +161,20 @@ const publications = [
     "year": "2021",
     "type": "journal"
   },
+
+  // ==================== 2020 ====================
   {
     "title": "Edge Computing and Its Convergence with Blockchain in 5G and Beyond: Security, Challenges, and Opportunities",
     "venue": "IEEE Access · 8, 205340–205373",
     "year": "2020",
+    "type": "journal"
+  },
+
+  // ==================== 2019 ====================
+  {
+    "title": "Power and Energy Optimization with Reduced Complexity in Different Deployment Scenarios of Massive MIMO Networks",
+    "venue": "International Journal of Communication Systems · 32(6), e3907",
+    "year": "2019",
     "type": "journal"
   },
   {
@@ -185,18 +183,43 @@ const publications = [
     "year": "2019",
     "type": "journal"
   },
+
+  // ==================== 2018 ====================
+  {
+    "title": "A Survey on Energy-Efficient 5G Green Network with a Planned Multi-Tier Architecture",
+    "venue": "Journal of Network and Computer Applications · 118, 1–28",
+    "year": "2018",
+    "type": "journal"
+  },
+  {
+    "title": "Performance Evaluation of Different Channel Estimation Techniques in MIMO System for Hata Channel Model",
+    "venue": "IEEE ICICS · pp. 155–160",
+    "year": "2018",
+    "type": "conference"
+  },
   {
     "title": "Bit Error Rate Based Performance Evaluation of LTE OFDMA System",
     "venue": "IEEE ICICS · pp. 161–166",
     "year": "2018",
     "type": "conference"
   },
+
+  // ==================== 2017 ====================
   {
     "title": "Image Restoration and the Various Restoration Techniques Used in the Field of Digital Image Processing",
     "venue": "International Journal of Computer Science and Mobile Computing · 6(6), 390–393",
     "year": "2017",
     "type": "journal"
   },
+
+  // ==================== 2016 ====================
+  {
+    "title": "KU Database of Handwritten Arabic Words",
+    "venue": "Research output listed on Strikingly · Full venue needs verification",
+    "year": "2016",
+    "type": "journal"
+  },
+
   {
     "title": "Energy Efficiency Optimization of Massive MIMO Network",
     "venue": "M.Tech thesis · Lovely Professional University · Supervisor: Dr. Akhil Gupta",
