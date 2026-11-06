@@ -20,9 +20,9 @@
 /* FINAL FIX: Homepage photograph size */
 
 .hero-art .hero-profile {
-  width: 320px !important;
+  width: 380px !important;
   max-width: 100% !important;
-  height: 390px !important;
+  height: 460px !important;
   min-height: 0 !important;
   margin: 0 auto !important;
   display: block !important;
@@ -30,10 +30,10 @@
 
 .hero-art .hero-profile img.hero-profile-photo {
   display: block !important;
-  width: 320px !important;
+  width: 380px !important;
   max-width: 100% !important;
-  height: 390px !important;
-  max-height: 390px !important;
+  height: 460px !important;
+  max-height: 460px !important;
   object-fit: cover !important;
   object-position: center top !important;
   border-radius: 16px !important;
