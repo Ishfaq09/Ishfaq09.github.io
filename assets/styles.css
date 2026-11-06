@@ -15,24 +15,41 @@
 
 
 
-/* Professional photograph size */
-.hero-profile-photo {
-  display: block;
-  width: 100%;
-  max-width: 420px;
-  height: 480px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 18px;
-  border: 2px solid #70dfce;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
-  margin: 0 auto;
+
+/* Fix oversized homepage photograph */
+.hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
 }
 
-/* Mobile screen */
+.hero-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.hero-profile-photo {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  height: 390px;
+  max-height: none;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 16px;
+  border: 2px solid #70dfce;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/* Mobile screens */
 @media (max-width: 768px) {
   .hero-profile-photo {
-    max-width: 280px;
-    height: 340px;
+    width: 240px;
+    height: 300px;
   }
 }
+
