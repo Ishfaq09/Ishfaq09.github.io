@@ -25,31 +25,31 @@ const publications = [
   },
   {
     "title": "AE-Multi-WGAN: A Robust Multi-Attack Detection IDS for Imbalanced Datasets",
-    "venue": "IEEE GLOBECOM · pp. 1065–1070",
+    "venue": "IEEE GLOBECOM Communications Conference · pp. 1065–1070",
     "year": "2025",
     "type": "conference"
   },
   {
     "title": "LIME: Lightweight Multi-head Early-exit Transformer for Network Intrusion Detection",
-    "venue": "IEEE ICC",
+    "venue": "IEEE  International Conference on Communications (ICC)",
     "year": "2026",
     "type": "conference"
   },
   {
     "title": "ACCV-GAN: A Variational-Transformer GAN with Class-Aware Adaptive Training for Intrusion Detection Data Augmentation",
-    "venue": "IEEE Transactions on Network and Service Management · Under revision as listed",
+    "venue": "IEEE Transactions on Network and Service Management · Under revision",
     "year": "2025",
     "type": "journal"
   },
   {
     "title": "Generative AI-enabled Multi-Attack Intrusion Detection Framework for Imbalanced Datasets",
-    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence · Status needs updating",
+    "venue": "IEEE Transactions on Emerging Topics in Computational Intelligence · Under revision",
     "year": "2026",
     "type": "journal"
   },
   {
     "title": "Multi-View GAN-Based Intrusion Detection with Temporal Reconstruction and Class-Aware Feature Balancing",
-    "venue": "IEEE ICCCN",
+    "venue": "IEEE International Conference on Computer Communications and Networks (ICCCN)",
     "year": "2026",
     "type": "conference"
   },
@@ -61,7 +61,7 @@ const publications = [
   },
   {
     "title": "SNR-Guided Model Sizing for Differentially Private Federated Learning with LiRA Privacy Auditing",
-    "venue": "IEEE ICCCN",
+    "venue": "IEEE International Conference on Computer Communications and Networks (ICCCN)",
     "year": "2026",
     "type": "conference"
   },
