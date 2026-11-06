@@ -19,7 +19,7 @@ const profile = {
 const publications = [
   {
     "title": "An Efficient Transformer-Based Knowledge Distillation Framework with CPCA and GAN Augmentation for Lightweight IDS",
-    "venue": "IEEE Transactions on Machine Learning in Communications and Networking · Accepted as listed on Strikingly",
+    "venue": "IEEE Transactions on Machine Learning in Communications and Networking",
     "year": "2025",
     "type": "journal"
   },
