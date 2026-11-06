@@ -12,3 +12,25 @@
 .publication-tools input{flex:1;min-width:230px}.publication-tools select{min-width:180px}
 #publication-count{font-size:12px;color:#617680}.external-link{color:#008e89;font-weight:700}
 @media(max-width:800px){.detail-grid{grid-template-columns:1fr}.detail-card{padding:22px}}
+
+
+
+/* Homepage profile photograph */
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: 480px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 18px;
+  border: 2px solid #70dfce;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    max-width: 280px;
+    height: 340px;
+  }
+}
