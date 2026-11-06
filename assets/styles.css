@@ -50,13 +50,13 @@
 
 @media (max-width: 768px) {
   .hero-art .hero-profile {
-    width: 240px !important;
-    height: 300px !important;
+    width: 380px !important;
+    height: 460px !important;
   }
 
   .hero-art .hero-profile img.hero-profile-photo {
-    width: 240px !important;
-    height: 300px !important;
-    max-height: 300px !important;
+    width: 380px !important;
+    height: 460px !important;
+    max-height: 460px !important;
   }
 }
