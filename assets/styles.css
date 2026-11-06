@@ -17,46 +17,37 @@
 
 
 
-/* FINAL FIX: Homepage photograph size */
 
+/* Homepage photograph - slightly larger */
 .hero-art .hero-profile {
-  width: 380px !important;
+  width: 430px !important;
+  height: 520px !important;
   max-width: 100% !important;
-  height: 460px !important;
-  min-height: 0 !important;
+  flex: 0 1 430px !important;
   margin: 0 auto !important;
-  display: block !important;
 }
 
 .hero-art .hero-profile img.hero-profile-photo {
   display: block !important;
-  width: 380px !important;
+  width: 430px !important;
+  height: 520px !important;
   max-width: 100% !important;
-  height: 460px !important;
-  max-height: 460px !important;
+  max-height: none !important;
   object-fit: cover !important;
   object-position: center top !important;
   border-radius: 16px !important;
 }
 
-/* Prevent the illustration container from stretching */
-.hero-art {
-  min-height: 0 !important;
-  height: auto !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
+/* Mobile screens */
 @media (max-width: 768px) {
   .hero-art .hero-profile {
-    width: 380px !important;
-    height: 460px !important;
+    width: 280px !important;
+    height: 340px !important;
+    flex-basis: 280px !important;
   }
 
   .hero-art .hero-profile img.hero-profile-photo {
-    width: 380px !important;
-    height: 460px !important;
-    max-height: 460px !important;
+    width: 280px !important;
+    height: 340px !important;
   }
 }
