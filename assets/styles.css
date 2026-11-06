@@ -53,16 +53,34 @@
 }
 
 
-.site-logo {
-  width: 180px;
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
+
+/* Fix oversized header logo */
+.site-header .brand .site-logo {
+  width: 90px !important;
+  height: 55px !important;
+  max-width: 90px !important;
+  max-height: 55px !important;
+  object-fit: contain !important;
+  display: block !important;
+  position: static !important;
+  flex-shrink: 0;
 }
 
+/* Keep header properly aligned */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+/* Mobile logo size */
 @media (max-width: 768px) {
-  .site-logo {
-    width: 130px;
+  .site-header .brand .site-logo {
+    width: 55px !important;
+    height: 45px !important;
+    max-width: 55px !important;
+    max-height: 45px !important;
   }
 }
 
